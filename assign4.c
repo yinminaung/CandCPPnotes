@@ -14,7 +14,7 @@ void main() {
 
 int search(char word[], int fullScore) {
     FILE *fptr;
-    fptr = fopen("text.txt", "r");
+    fptr = fopen("words.txt", "r");
     char c;
     int index = 0;
     int score = 0;
