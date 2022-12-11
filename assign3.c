@@ -41,14 +41,14 @@ int main() {
         index++;
     }
 
-
+    index = 0;
     // printing the array in the console;
     printf("[");
-    for (int i = 0; i < 100; i++) {
-        if (i == 99) {
-            printf("%d", intArray[i]); // removing the last comma in the list
+    for (int index = 0; index < 100; index++) {
+        if (index == 99) {
+            printf("%d", intArray[index]); // removing the last comma in the list
         } else {
-            printf("%d, ", intArray[i]);
+            printf("%d, ", intArray[index]);
         }
     }
     printf("]\n");
